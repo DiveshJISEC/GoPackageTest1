@@ -33,3 +33,7 @@ func MarkLien(matchAct string, amt int) string {
 func unMarkLien(matchAct string, amt int) string {
 	return pvt.UnMarkLien(matchAct, amt)
 }
+
+func GetVersion() string {
+	return pub.GetVersion()
+}

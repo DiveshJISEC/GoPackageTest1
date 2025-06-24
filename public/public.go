@@ -21,3 +21,7 @@ func IsSufficientBalcnce(matchAct string, amt int) string {
 func CheckLien(matchAct string) string {
 	return fmt.Sprintf("API Pvt3. Requested lien for %s is 8453.010", matchAct)
 }
+
+func GetVersion() string {
+	return "API Version 2025-06-24 14:09"
+}
