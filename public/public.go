@@ -5,7 +5,7 @@ import (
 )
 
 func CheckBalance(matchAct string) string {
-	return fmt.Sprintf("API Pvt1. Requested balance for %s is 5105.14")
+	return fmt.Sprintf("API Pvt1. Requested balance for %s is 5105.14", matchAct)
 }
 
 func IsSufficientBalcnce(matchAct string, amt int) string {
@@ -19,5 +19,5 @@ func IsSufficientBalcnce(matchAct string, amt int) string {
 }
 
 func CheckLien(matchAct string) string {
-	return fmt.Sprintf("API Pvt3. Requested lien for %s is 8453.01")
+	return fmt.Sprintf("API Pvt3. Requested lien for %s is 8453.010", matchAct)
 }
