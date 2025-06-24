@@ -1,9 +1,9 @@
 package GoPackageTest1
 
 import (
-	pvt "goPackageTest1/internal"
+	pvt "github.com/DiveshJISEC/GoPackageTest1/internal"
 
-	pub "goPackageTest1/public"
+	pub "github.com/DiveshJISEC/GoPackageTest1/public"
 )
 
 func CheckBalanceV1(matchAct string) string {
