@@ -10,7 +10,7 @@ func CheckBalanceV1(matchAct string) string {
 	return pub.CheckBalance(matchAct)
 }
 
-func isSufficientBalcnce(matchAct string, amt int) string {
+func IsSufficientBalcnce(matchAct string, amt int) string {
 	return pub.IsSufficientBalcnce(matchAct, amt)
 }
 

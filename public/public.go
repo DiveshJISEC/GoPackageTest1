@@ -23,5 +23,5 @@ func CheckLien(matchAct string) string {
 }
 
 func GetVersion() string {
-	return "API Version 2025-06-24 14:09"
+	return "API Version 2025-06-24 14:34"
 }
